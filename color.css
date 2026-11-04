@@ -236,11 +236,31 @@ body {
 .skill-item p {
     margin: 0;
 }
-.skill-item:last-child {
-    /* your existing card styles */
-    margin-right: auto;
+
+.skill-item {
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
-/* -----Skills card ends----- */
+
+.skill-item h3 {
+    color: #00aaff;
+    transition: color 0.3s ease;
+}
+
+.skill-item p {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.skill-item:hover {
+    background-color: #00aaff;
+    transform: translateY(-5px);
+}
+
+.skill-item:hover h3,
+.skill-item:hover p {
+    color: white;
+}-Skills card ends----- */
 
 html {
     scroll-behavior: smooth;
