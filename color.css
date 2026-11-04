@@ -260,8 +260,47 @@ body {
 .skill-item:hover h3,
 .skill-item:hover p {
     color: white;
-}-Skills card ends----- */
+}
+/*Skills card ends----- */
 
+
+/* Education card starts */
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+}
+
+.edu-item {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    border: 2px solid #00aaff;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.edu-item h3 {
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.edu-item:hover {
+    background-color: #00aaff;
+    transform: translateY(-5px);
+}
+
+.edu-item:hover h3,
+.edu-item:hover p {
+    color: white;
+}
+
+.edu-item p {
+    margin: 5px 0;
+}
 html {
     scroll-behavior: smooth;
 }
