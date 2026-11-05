@@ -457,7 +457,7 @@ body {
     color: white;
 }
 .contact-card h1 {
-    color: #00aaff;
+    color: #ffffff;
 }
 .contact-links {
     display: flex;
@@ -480,9 +480,7 @@ body {
     min-width: 150px;
     justify-content: center;
 }
-#contact {
-    scroll-margin-top: 90px;
-}
+
 .contact-item:hover {
     background-color: #00aaff;
     color: white;
