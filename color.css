@@ -466,6 +466,9 @@ body {
     gap: 20px;
     width: 100%;
 }
+.contact-links span{
+    color:white;
+}
 
 .contact-item {
     display: flex;
